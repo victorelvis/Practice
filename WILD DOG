@@ -22,6 +22,17 @@
       <li>thunder</li>
       <li>other predators</li>
     </ol>
+    
+     <p>Where in Africa do you think they are found.</p>
+     <label for="kenya"><input id="kenya" type="radio" name="kenya-zambia-nigeria-cestral africa"> kenya</label>
+    <label for="zambia"><input id="zambia" type="radio" name="kenya-zambia-nigeria-central africa"> zambia</label>
+    <label for="nigeria"><input id="nigeria" type="radio" name="kenya-zambia-nigeria-central africa"> nigeria</label>
+    <label for="cantral africa"><input id="central africa" type="radio" name="kenya-zambia-nigeria-central africa"> central africa</label><br>
+    <p>which type of climet are African Wild Dogs adapted to?</p>
+    <label for="Cold"><input id="Cold" type="checkbox" name="climet"> Cold</label>
+    <label for="Hot"><input id="Hot" type="checkbox" name="climet"> Hot</label>
+    <label for="Equtorial"><input id="Equtorial" type="checkbox" name="climet"> Equitorial</label><br>
+    
 </main>
 
  </body>
