@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link href="https://fonts.google.com/specimen/Train+One" rel="stylesheet" type="text/css">
 <style>
 .blue-text{
 color: bule;
@@ -7,6 +8,13 @@ color: bule;
 .brown-text{
 color: brown
 }
+h2 {
+    font-family: "Train+One", sans-serif;
+  }
+p {
+  font-size: 20px;
+  font-family: monospace
+  }
 </style>
  <head>
   <h2 class="blue-text">African Wild Dog</h2>
