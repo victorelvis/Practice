@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link href="https://fonts.google.com/specimen/Train+One" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 <style>
 .blue-text{
 color: bule;
@@ -11,6 +12,9 @@ color: brown
 h2 {
     font-family: "Train+One", sans-serif;
   }
+p2 {
+  font-family: "Sofia", sans-serif;
+}
 p {
   font-size: 20px;
   font-family: monospace
@@ -21,7 +25,7 @@ p {
  </head>
  <body>
   <main>
-    <p class="brown-text">Click here to view more <a href="https://www.gettyimages.com/photos/african-wild-dog">dog photos</a>.</p>
+    <p2 class="brown-text">Click here to view more <a href="https://www.gettyimages.com/photos/african-wild-dog">dog photos</a>.</p2>
 
     <a href="#"><img src="https://i.pinimg.com/originals/ca/11/8c/ca118c1c282c75ad697101beb8cd5096.jpg" alt="a wild dog standing on a rock."></a>
   
