@@ -1,0 +1,123 @@
+<html>
+  <style>
+  :root {
+    --main-white: #f0f0f0;
+    --main-orange: #FF8C00;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+    --main-black: 	#000000;
+    --main-lightblue: 	#87CEFA;
+  }
+  #header-img {
+    width: 150px;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 20vw;
+    color: darkorange;
+  }
+  
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-black);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 6rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  
+  .nav-list a:hover {
+    background: var(--main-lightblue);
+  }
+  
+  h2,h3 {
+     text-align: center;
+    color: #87CEFA;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    color: var(--main-white);
+    background-color: #000;
+  }
+  </style>
+  
+  <head>
+     <header id="header">
+      <img id="header-img" src="https://images-na.ssl-images-amazon.com/images/I/61el1xMCYVL._AC_SL1500_.jpg">
+       <p>
+         G-Shock
+       </p>
+      <nav id="nav-bar" class="nav">
+        <a class="nav-link" href="#learn-more">learn more</a>
+        <a class="nav-link" href="#request-upgrade">request upgrade</a>
+        <a class="nav-link" href="#buy-online">buy online</a>
+      </nav>
+    </headeer>
+  </head>
+  
+  <body>
+   <main>
+    <h2>G-Shock Digital Watches</h2>
+    
+    <section id="learn-more">
+      <h3>
+        Birth of G-shock
+      </h3>
+      <p>
+        At the beginning of the 1980s, Kikuo Ibe was the leading watch designer for CASIO. In 1981 lbe founded a project team with just three members whose aim was to realize his vision of an indestructible watch. Their endeavours were focused on the creation of the Triple 10 concept. A vast range of materials was tried and tested as the shock resistance of the first prototypes was subjected to the most stringent requirements. But Ibe was still not completely satisfied, as even the hardest metals provided insufficient protection for the digital inner workings of the watches against knocks and other external influences. Despite months of hard work that pushed the team to its physical and mental limits, the goal remained a long way off...
+      </p>
+      <h3>
+        The Idea
+      </h3>
+      <p>
+        At this time, Ibe was observing children playing in a park when he noticed something: "The internal workings of a bouncing rubber ball remain completely unaffected by impact," he thought. This observation led to his team developing a watch with a hollow design in which the interior module of the watch is stored in a manner akin to floating
+      </p>
+      <h3>
+        The Result
+      </h3>
+      <p>
+        The shock-proof G-SHOCK watches quickly became the epitome of robustness, innovation and multifunctionality. At last, enthusiasts could keep their wristwatches on while skateboarding or riding their BMX bikes. Falls and knocks are no problem for the G-SHOCK. Whether for everyday use, playing sport or under extreme outdoor conditions, G-SHOCK watches have been genuine all-rounders and reliable companions in every situation for almost 35 years. Today, G-SHOCK has earned the privilege of being worn by men who are not willing to accept limits.
+      </p>
+    </section>
+  </main>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gJgUiJfQdJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="request-upgrade"></section>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" placeholder="request for upgrade" name="email"></input>
+        <input id="submit" type="submit"></input>
+      </form>
+    <section id="buy-online"></section>
+  </body>
+</html>
