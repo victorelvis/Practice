@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html>
+<link href="https://fonts.google.com/specimen/Train+One" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+.blue-text{
+color: bule;
+}
+.brown-text{
+color: brown
+}
+h2 {
+    font-family: "Train+One", sans-serif;
+  }
+p2 {
+  font-family: "Sofia", sans-serif;
+}
+p {
+  font-size: 20px;
+  font-family: monospace
+  }
+.thin-orange-border{
+    border-color: orange;
+    border-width: 5px;
+    border-style: solid;
+    }
+</style>
  <head>
-  <h2>African Wild Dog</h2>
+  <h2 class="blue-text">African Wild Dog</h2>
  </head>
  <body>
   <main>
-    <p>Click here to view more <a href="https://www.gettyimages.com/photos/african-wild-dog">dog photos</a>.</p>
+    <p2 class="brown-text">Click here to view more <a href="https://www.gettyimages.com/photos/african-wild-dog">dog photos</a>.</p2>
 
-    <a href="#"><img src="https://i.pinimg.com/originals/ca/11/8c/ca118c1c282c75ad697101beb8cd5096.jpg" alt="a wild dog standing on a rock."></a>
+    <a href="#"><img class="thin-orange-border" src="https://i.pinimg.com/originals/ca/11/8c/ca118c1c282c75ad697101beb8cd5096.jpg" alt="a wild dog standing on a rock."></a>
   
     <p>African wild dog, (Lycaon pictus), also called Cape hunting dog, African hunting dog, or hyena dog, wild African carnivore that differs from the rest of the members of the dog family (Canidae) in having only four toes on each foot. Its coat is short, sparse, and irregularly blotched with yellow, black, and white. The African wild dog is about 76–102 cm (30–41 inches) long, exclusive of its 31–41-cm tail, stands about 60 cm (24 inches) tall at the shoulder, and weighs about 16–23 kg (35–50 pounds).</p>
     <div>
@@ -34,6 +59,11 @@
     <label for="Cold"><input id="Cold" type="checkbox" name="climet"> Cold</label>
     <label for="Hot"><input id="Hot" type="checkbox" name="climet"> Hot</label>
     <label for="Equtorial"><input id="Equtorial" type="checkbox" name="climet"> Equitorial</label><br>
+    
+    <p>Sounds made by wild dogs.</p>
+    <audio controls>
+     <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" type="audio/mpeg">
+    </audio>
     
 </main>
 
